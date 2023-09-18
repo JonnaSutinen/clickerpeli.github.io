@@ -1,0 +1,64 @@
+body {
+    background-color: #fce4ec;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+  }
+  h1 {
+    color: #ff83ac;
+  }
+  #peli-alue {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 300px;
+  }
+  #yksisarvinen img {
+    width: 150px; 
+    height: 150px; 
+    display: block;
+    margin: 0 auto;
+}
+
+  button {
+    background-color: #ffffff; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+  }
+
+    #peli-alue {
+      flex: 1;
+      padding: 20px;
+      background-color: #f3cef0;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      max-width: 200px; 
+    }
+  
+  #kauppa {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 300px; 
+  }
+  .tuote {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tuote img {
+    width: 90px; 
+    height: 90px; 
+    cursor: pointer; 
+}

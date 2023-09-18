@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clicker Peli</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="scripts/scripts.js"></script>
+</head>
+
+<body>
+    <div id="peli-alue">
+        <h1>Clicker Peli</h1>
+        <p>Klikkaa yksisarvista ansaitaksesi pisteitä!</p>
+        <button id="yksisarvinen" onclick="kasvataPisteita()">
+            <img src="img/ykssarvine.png" alt="Yksisarvinen">
+        </button>
+        <p>Pisteet: <span id="pisteet">0</span></p>
+        <p>Autoclicker: <span id="autoclicker">0</span></p>
+    </div>
+
+    <div id="kauppa">
+        <h2>Kauppa</h2>
+        <p>Pisteet: <span id="kaupanPisteet">0</span></p>
+        <div class="tuote" onclick="ostaAutoclicker()">
+            <p>Hinta: <span id="autoclickerHinta">20</span> pistettä</p>
+            <img src="img/autoclickerkuva.png" alt="Autoclicker">
+
+        </div>
+        <div class="tuote" onclick="ostaVoitto()">
+            <p>Hinta: 10 000 pistettä</p>
+            <img src="img/VOITTO.png" alt="Voitto">
+
+        </div>
+
+</body>
+</html>
